@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap&subset=japanese');
 /* Base */
 html {
   overflow-x: hidden; }
@@ -275,7 +276,7 @@ h1, h2, h3, h4, h5,
 .form-control {
   height: 55px;
   background: #fff !important;
-  font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  font-family: 'Noto Sans JP', sans-serif; }
   .form-control:active, .form-control:focus {
     border-color: #dc3545; }
   .form-control:hover, .form-control:active, .form-control:focus {
@@ -969,7 +970,7 @@ h1, h2, h3, h4, h5,
     font-style: italic;
     font-size: 18px;
     color: #000;
-    font-family: 'Georgia', Times, serif;
+    font-family: 'Noto Sans JP', sans-serif;
     position: relative; }
   .block-testimony-1 figure {
     position: relative;

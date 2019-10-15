@@ -49,28 +49,16 @@
   </section>
   <!-- banner part end-->
   <!-- banner part start-->
-  <script type="text/javascript">
-    $(function() {
-      var href = "https://sigotora.jp/index.cfm";
-      $('#srh_ken_param,#sfw').on('change', function() {
-        var srh_ken_param = $('#srh_ken_param').val();
-        var sfw = $('#sfw').val();
-        $('#test').prop('href', href + "?fuseaction=job.joblist&srh_jobtype_param=5&srh_ken_param=" + srh_ken_param + "&sfw=" + sfw);
-      });
-    });
-  </script>
-  <!-- banner part start-->
   <section class="search_your_country">
     <div class="container-fluid">
       <div class="row align-items-center">
         <div class="col-lg-12">
           <div class="search_form">
-            <form action="#">
               <div class="form-row">
                 <div class="col-lg-9">
                   <div class="search_form_iner">
                     <select class="custom_select" id="srh_ken_param">
-                      <option value="">---</option>
+                      <option value="">都道府県</option>
                       <option value="1">北海道</option>
                       <option value="2">青森県</option>
                       <option value="3">岩手県</option>
@@ -119,19 +107,13 @@
                       <option value="46">鹿児島県</option>
                       <option value="47">沖縄県</option>
                     </select>
-                    <select class="custom_select" id="inlineFormCustomSelect1">
-                      <option selected="">city</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                    </select>
+                    <input type="text" class="custom_select1" id="sfw" placeholder="市区町村・最寄り駅" />
                   </div>
                 </div>
                 <div class="col-lg-3">
-                  <a href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&amp;srh_jobtype_param=5" class="search_btn" id="test" target="_blank">search</a>
+                  <a href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&amp;srh_jobtype_param=5" class="search_btn" id="test" target="_blank">検索</a>
                 </div>
               </div>
-            </form>
           </div>
         </div>
       </div>
@@ -574,6 +556,7 @@
   <script src="js/jquery.validate.min.js"></script>
   <script src="js/mail-script.js"></script>
   <script src="js/custom.js"></script>
+  <script src="js/search.js"></script>
 </body>
 
 </html>

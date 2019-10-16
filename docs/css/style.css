@@ -2350,7 +2350,7 @@ ul {
 @media (max-width: 991px) {
   /* line 184, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_menu.scss */
   .main_menu {
-    padding: 26px 0px;
+    padding: 5px 0px;
   }
   /* line 188, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_menu.scss */
   .home_menu .main-menu-item {
@@ -2410,14 +2410,14 @@ ul {
 @media (max-width: 576px) {
   /* line 248, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_menu.scss */
   .main_menu {
-    padding: 20px 0px;
+    padding: 5px 0px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 254, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_menu.scss */
   .main_menu {
-    padding: 20px 0px;
+    padding: 5px 0px;
   }
 }
 

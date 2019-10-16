@@ -2708,7 +2708,7 @@ ul {
 
 /* line 86, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_search.scss */
 .search_your_country .single_donation_item {
-  margin-top: 70px;
+  /* margin-top: 70px; */
 }
 
 @media (max-width: 991px) {

@@ -2663,7 +2663,7 @@ ul {
   border-radius: 0;
   text-transform: capitalize;
   font-size: 16px;
-  background-color: #FFFFFF;
+  background-color: #F2F2F2;
 }
 
 .custom_select1 {
@@ -2676,6 +2676,7 @@ ul {
   border-radius: 0;
   text-transform: capitalize;
   font-size: 16px;
+  background-color: #F2F2F2;
 }
 
 /* line 58, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_search.scss */

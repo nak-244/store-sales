@@ -2487,7 +2487,8 @@ ul {
 
 /* line 26, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_banner.scss */
 .banner_part .banner_text {
-  padding-top: 235px;
+  /* padding-top: 235px; */
+  padding-top: 200px;
 }
 
 /* line 28, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_banner.scss */

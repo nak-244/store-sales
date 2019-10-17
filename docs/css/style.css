@@ -349,7 +349,6 @@ a:focus, .button:focus, button:focus, .btn:focus {
   text-transform: capitalize;
   line-height: 30px;
   font-family: 'Noto Sans JP', sans-serif;
-  font-style: italic;
 }
 
 @media (max-width: 576px) {

@@ -2659,9 +2659,10 @@ ul {
   border-radius: 0;
   color: #14182d;
   height: 60px;
-  padding-top: 11px;
+  padding: 11px;
   border-radius: 0;
   text-transform: capitalize;
+  font-size: 16px;
 }
 
 .custom_select1 {

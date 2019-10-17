@@ -6183,3 +6183,11 @@ h6 {
 }
 
 /*# sourceMappingURL=../css/style.map */
+
+.csf01 {
+  height: calc(1.5em + 1rem + 2px);
+      padding: .5rem 1rem;
+      font-size: 1.25rem;
+      line-height: 1.5;
+      border-radius: .3rem;
+}

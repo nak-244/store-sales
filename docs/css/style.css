@@ -2681,13 +2681,13 @@ ul {
 
 /* line 58, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_search.scss */
 .search_your_country .search_form .search_form_iner .custom_select:before {
-  position: absolute;
+  /* position: absolute;
   content: "";
   right: 0;
   top: 17px;
   width: 1px;
   height: 25px;
-  background-color: #c3c3c3;
+  background-color: #c3c3c3; */
 }
 
 /* line 68, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_search.scss */

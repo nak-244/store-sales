@@ -2138,9 +2138,17 @@ ul {
 .single_blog_post .single_blog .single_appartment_content .list-unstyled {
   margin-top: 33px;
 }
+.single_blog_post .single_blog .single_appartment_content .list-unstyled1 {
+  margin-top: 33px;
+}
 
 /* line 35, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_single_blog.scss */
 .single_blog_post .single_blog .single_appartment_content .list-unstyled li {
+  display: inline;
+  margin-right: 17px;
+  color: #999999;
+}
+.single_blog_post .single_blog .single_appartment_content .list-unstyled1 li {
   display: inline;
   margin-right: 17px;
   color: #999999;
@@ -2151,6 +2159,11 @@ ul {
   margin-right: 8px;
   color: #999999;
 }
+.single_blog_post .single_blog .single_appartment_content .list-unstyled1 li a {
+  margin-right: 8px;
+  color: #999999;
+}
+
 
 /**************menu part start*****************/
 /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_menu.scss */
@@ -3920,9 +3933,16 @@ ul {
 .footer_part .single_footer_part .list-unstyled {
   column-count: 2;
 }
-
+.footer_part .single_footer_part .list-unstyled1 {
+  column-count: 2;
+}
 /* line 68, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_footer.scss */
 .footer_part .single_footer_part .list-unstyled li a {
+  color: #7a7a7a;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.footer_part .single_footer_part .list-unstyled1 li a {
   color: #7a7a7a;
   margin-bottom: 20px;
   display: inline-block;
@@ -3930,6 +3950,10 @@ ul {
 
 /* line 73, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_footer.scss */
 .footer_part .single_footer_part .list-unstyled li a:hover {
+  color: #ffcc00 !important;
+}
+
+.footer_part .single_footer_part .list-unstyled1 li a:hover {
   color: #ffcc00 !important;
 }
 
@@ -6007,8 +6031,17 @@ h6 {
   column-count: 2;
 }
 
+.footer_part .single_footer_part .list-unstyled1 {
+  column-count: 1;
+}
+
 /* line 68, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_footer.scss */
 .footer_part .single_footer_part .list-unstyled li a {
+  color: #7a7a7a;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.footer_part .single_footer_part .list-unstyled1 li a {
   color: #7a7a7a;
   margin-bottom: 20px;
   display: inline-block;
@@ -6016,6 +6049,9 @@ h6 {
 
 /* line 73, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_footer.scss */
 .footer_part .single_footer_part .list-unstyled li a:hover {
+  color: #ffcc00 !important;
+}
+.footer_part .single_footer_part .list-unstyled1 li a:hover {
   color: #ffcc00 !important;
 }
 

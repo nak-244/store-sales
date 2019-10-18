@@ -3516,7 +3516,7 @@ ul {
 @media (max-width: 991px) {
   /* line 64, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_place_details.scss */
   .place_details .view_all_btn .view_btn {
-    width: 150px;
+    /* width: 150px; */
     height: 80px;
   }
 }
@@ -3524,7 +3524,7 @@ ul {
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 64, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_place_details.scss */
   .place_details .view_all_btn .view_btn {
-    width: 150px;
+    /* width: 150px; */
     height: 80px;
   }
 }

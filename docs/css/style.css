@@ -3451,7 +3451,8 @@ ul {
   line-height: 30px;
   font-family: 'Noto Sans JP', sans-serif;
   display: inline-block;
-  margin-bottom: 120px;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 @media (max-width: 991px) {

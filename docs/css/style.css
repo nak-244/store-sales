@@ -38,7 +38,9 @@ input:hover, input:focus {
 
 /* line 18, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_common.scss */
 .section_padding {
-  padding: 180px 0px;
+  /* padding: 180px 0px; */
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -3673,7 +3675,8 @@ ul {
   background-image: url(../img/cta_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 750px;
+  /* height: 750px; */
+    height: auto;
 }
 
 @media (max-width: 991px) {

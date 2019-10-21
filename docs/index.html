@@ -55,100 +55,153 @@
       <div class="row align-items-center">
         <div class="col-lg-12">
           <div class="search_form" style="	background-image: linear-gradient(to bottom, rgba(255, 204, 0, 0.01), rgba(255, 204, 0, 0.8));	background-position: top left;	background-size: 100%;	background-repeat: repeat;">
+            <!-- form -->
             <div class="form-row">
-              <div class="col-lg-12">
-                <a class="search_btn" data-toggle="modal" data-target="#modal1">求人検索</a>
-                <!-- ここから -->
-                <!-- Modal -->
-                <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal11" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title text-primary" id="modal11">求人検索</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        <div class="row">
-                          <div class="col-6">
-                            <h5>都道府県</h5>
-                            <select class="custom-select csf01 csfcommon" id="srh_ken_param">
-                              <option value="">都道府県</option>
-                              <option value="1">北海道</option>
-                              <option value="2">青森県</option>
-                              <option value="3">岩手県</option>
-                              <option value="4">宮城県</option>
-                              <option value="5">秋田県</option>
-                              <option value="6">山形県</option>
-                              <option value="7">福島県</option>
-                              <option value="8">茨城県</option>
-                              <option value="9">栃木県</option>
-                              <option value="10">群馬県</option>
-                              <option value="11">埼玉県</option>
-                              <option value="12">千葉県</option>
-                              <option value="13">東京都</option>
-                              <option value="14">神奈川県</option>
-                              <option value="15">新潟県</option>
-                              <option value="16">富山県</option>
-                              <option value="17">石川県</option>
-                              <option value="18">福井県</option>
-                              <option value="19">山梨県</option>
-                              <option value="20">長野県</option>
-                              <option value="21">岐阜県</option>
-                              <option value="22">静岡県</option>
-                              <option value="23">愛知県</option>
-                              <option value="24">三重県</option>
-                              <option value="25">滋賀県</option>
-                              <option value="26">京都府</option>
-                              <option value="27">大阪府</option>
-                              <option value="28">兵庫県</option>
-                              <option value="29">奈良県</option>
-                              <option value="30">和歌山県</option>
-                              <option value="31">鳥取県</option>
-                              <option value="32">島根県</option>
-                              <option value="33">岡山県</option>
-                              <option value="34">広島県</option>
-                              <option value="35">山口県</option>
-                              <option value="36">徳島県</option>
-                              <option value="37">香川県</option>
-                              <option value="38">愛媛県</option>
-                              <option value="39">高知県</option>
-                              <option value="40">福岡県</option>
-                              <option value="41">佐賀県</option>
-                              <option value="42">長崎県</option>
-                              <option value="43">熊本県</option>
-                              <option value="44">大分県</option>
-                              <option value="45">宮崎県</option>
-                              <option value="46">鹿児島県</option>
-                              <option value="47">沖縄県</option>
-                            </select>
-                          </div>
-                          <div class="col-6">
-                            <h5>市区町村・最寄り駅等</h5>
-                            <input class="form-control form-control-lg csfcommon" type="text" id="test" placeholder="新宿区 豊島区">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="modal-footer">
-                        <a href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&amp;srh_jobtype_param=5" class="search_btn" id="test" target="_blank">この条件で検索</a>
-                      </div>
-                    </div>
-                  </div>
+              <div class="col-lg-9">
+                <div class="search_form_iner">
+                  <select class="custom-select csf01 csfcommon" id="srh_ken_param">
+                    <option value="">都道府県</option>
+                    <option value="1">北海道</option>
+                    <option value="2">青森県</option>
+                    <option value="3">岩手県</option>
+                    <option value="4">宮城県</option>
+                    <option value="5">秋田県</option>
+                    <option value="6">山形県</option>
+                    <option value="7">福島県</option>
+                    <option value="8">茨城県</option>
+                    <option value="9">栃木県</option>
+                    <option value="10">群馬県</option>
+                    <option value="11">埼玉県</option>
+                    <option value="12">千葉県</option>
+                    <option value="13">東京都</option>
+                    <option value="14">神奈川県</option>
+                    <option value="15">新潟県</option>
+                    <option value="16">富山県</option>
+                    <option value="17">石川県</option>
+                    <option value="18">福井県</option>
+                    <option value="19">山梨県</option>
+                    <option value="20">長野県</option>
+                    <option value="21">岐阜県</option>
+                    <option value="22">静岡県</option>
+                    <option value="23">愛知県</option>
+                    <option value="24">三重県</option>
+                    <option value="25">滋賀県</option>
+                    <option value="26">京都府</option>
+                    <option value="27">大阪府</option>
+                    <option value="28">兵庫県</option>
+                    <option value="29">奈良県</option>
+                    <option value="30">和歌山県</option>
+                    <option value="31">鳥取県</option>
+                    <option value="32">島根県</option>
+                    <option value="33">岡山県</option>
+                    <option value="34">広島県</option>
+                    <option value="35">山口県</option>
+                    <option value="36">徳島県</option>
+                    <option value="37">香川県</option>
+                    <option value="38">愛媛県</option>
+                    <option value="39">高知県</option>
+                    <option value="40">福岡県</option>
+                    <option value="41">佐賀県</option>
+                    <option value="42">長崎県</option>
+                    <option value="43">熊本県</option>
+                    <option value="44">大分県</option>
+                    <option value="45">宮崎県</option>
+                    <option value="46">鹿児島県</option>
+                    <option value="47">沖縄県</option>
+                  </select>
+                  <input class="form-control form-control-lg csfcommon" type="text" id="sfw" placeholder="市区町村等">
                 </div>
-                <!-- ここまで -->
+              </div>
+              <div class="col-lg-3">
+                <a href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&amp;srh_jobtype_param=5" class="search_btn" id="test" target="_blank">検索</a>
               </div>
             </div>
+            <!-- /form -->
           </div>
         </div>
       </div>
-      <div class="row align-items-center justify-content-between feature_part padding_top">
-        <div class="col-lg-6">
+      <div class="row">
+        <div class="col-lg-12 col-sm-12 col-12 col-md-12">
+          <div class="single_donation_item">
+            <h5><i class="fas fa-search">&nbsp;</i>&nbsp;職種で仕事を探す</h5>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 col-6 px-2">
+          <div class="single_donation_item">
+            <p><a href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&amp;srh_jobtype_param=5&amp;srh_jobtype_child_param=35&amp;sfw=" class="read_btn" target="_blank">家電販売&nbsp;<i class="fas fa-chevron-circle-right">&nbsp;</i></a></p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 col-6 px-2">
+          <div class="single_donation_item">
+            <a href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&amp;srh_jobtype_param=5&amp;srh_jobtype_child_param=36&amp;sfw=" class="read_btn" target="_blank">携帯販売&nbsp;<i class="fas fa-chevron-circle-right">&nbsp;</i></a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 col-6 px-2">
+          <div class="single_donation_item">
+            <a href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&amp;srh_jobtype_param=5&amp;srh_jobtype_child_param=37&amp;sfw=" class="read_btn" target="_blank">コンビニスタッフ&nbsp;<i class="fas fa-chevron-circle-right">&nbsp;</i></a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 col-6 px-2">
+          <div class="single_donation_item">
+            <a href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&amp;srh_jobtype_param=5&amp;srh_jobtype_child_param=38&amp;sfw=" class="read_btn" target="_blank">ファッション&nbsp;<i class="fas fa-chevron-circle-right">&nbsp;</i></a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 col-6 px-2">
+          <div class="single_donation_item">
+            <a href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&amp;srh_jobtype_param=5&amp;srh_jobtype_child_param=38&amp;sfw=" class="read_btn" target="_blank">コスメ販売&nbsp;<i class="fas fa-chevron-circle-right">&nbsp;</i></a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 col-6 px-2">
+          <div class="single_donation_item">
+            <a href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&amp;srh_jobtype_param=5&amp;srh_jobtype_child_param=39&amp;sfw=" class="read_btn" target="_blank">アパレル&nbsp;<i class="fas fa-chevron-circle-right">&nbsp;</i></a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 col-6 px-2">
+          <div class="single_donation_item">
+            <a href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&amp;srh_jobtype_param=5&amp;srh_jobtype_child_param=40&amp;sfw=" class="read_btn" target="_blank">インテリア&nbsp;<i class="fas fa-chevron-circle-right">&nbsp;</i></a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 col-6 px-2">
+          <div class="single_donation_item">
+            <a href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&amp;srh_jobtype_param=5&amp;srh_jobtype_child_param=40&amp;sfw=" class="read_btn" target="_blank">雑貨&nbsp;<i class="fas fa-chevron-circle-right">&nbsp;</i></a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 col-6 px-2">
+          <div class="single_donation_item">
+            <a href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&amp;srh_jobtype_param=5&amp;srh_jobtype_child_param=42&amp;sfw=" class="read_btn" target="_blank">スーパー&nbsp;<i class="fas fa-chevron-circle-right">&nbsp;</i></a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 col-6 px-2">
+          <div class="single_donation_item">
+            <a href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&amp;srh_jobtype_param=5&amp;srh_jobtype_child_param=42&amp;sfw=" class="read_btn" target="_blank">デパ地下&nbsp;<i class="fas fa-chevron-circle-right">&nbsp;</i></a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 col-6 px-2">
+          <div class="single_donation_item">
+            <a href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&amp;srh_jobtype_param=5&amp;srh_jobtype_child_param=43&amp;sfw=" class="read_btn" target="_blank">ドラッグストア&nbsp;<i class="fas fa-chevron-circle-right">&nbsp;</i></a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 col-6 px-2">
+          <div class="single_donation_item">
+            <a href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&amp;srh_jobtype_param=5&amp;srh_jobtype_child_param=44&amp;sfw=" class="read_btn" target="_blank">レジ&nbsp;<i class="fas fa-chevron-circle-right">&nbsp;</i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="img/animate_icon/shape-1.png" alt="" class="feature_icon_1">
+    <img src="img/animate_icon/shape-2.png" alt="" class="feature_icon_2">
+  </section>
+  <!-- banner part end-->
+  <!-- feature_part start-->
+  <section class="feature_part padding_top">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-lg-7">
           <div class="feature_img">
             <img src="img/about_img.png" alt="">
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-5">
           <div class="feature_part_text">
             <div class="text-center">
               <img src="img/section_tittle_img.png" alt="販売職で働こう｜株式会社オープンループパートナーズ">
@@ -190,9 +243,9 @@
     </div>
     <img src="img/animate_icon/shape-1.png" alt="" class="feature_icon_1">
     <img src="img/animate_icon/shape-2.png" alt="" class="feature_icon_2">
+    <img src="img/animate_icon/shape-3.png" alt="" class="feature_icon_3">
   </section>
-  <!-- banner part end-->
-
+  <!-- upcoming_event part start-->
   <!-- use sasu part end-->
   <section class="popular_place padding_top">
     <div class="container">

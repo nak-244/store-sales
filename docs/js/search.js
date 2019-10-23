@@ -7,7 +7,7 @@
         var srh_jobtype_child_param = $('.srh_jobtype_child_param:checked').map(function() {
                       return $(this).val();
                     }).get();
-        $('#test').prop('href', href + "?fuseaction=job.joblist&srh_jobtype_param=5&srh_ken_param=" + srh_ken_param + "&srh_jobtype_child_param=" + srh_jobtype_child_param + "&sfw=" + sfw);
+        $('#test').prop('href', href + "?fuseaction=job.joblist&srh_jobtype_param=5&srh_ken_param=" + srh_ken_param + "&sfw=" + sfw + "&srh_jobtype_child_param=" + srh_jobtype_child_param);
       });
     });
 })($331)

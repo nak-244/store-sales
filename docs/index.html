@@ -56,7 +56,7 @@
         <div class="col-lg-12">
           <div class="search_form" style="background-image: linear-gradient(to bottom, rgba(255, 204, 0, 0.8), rgba(255, 204, 0, 0.8));	background-position: top left;	background-size: 100%;	background-repeat: repeat;">
             <div class="form-row p-2">
-              <div class="col-lg-6 col-sm-12 my-3">
+              <div class="col-lg-4 col-sm-12 my-3">
                 <h6 class="modal-title">都道府県</h6>
                 <select id="srh_ken_param" class="custom-select">
                   <option value="">---</option>
@@ -109,9 +109,72 @@
                   <option value="47">沖縄県</option>
                 </select>
               </div>
-              <div class="col-lg-6 col-sm-12 my-3">
-                <h6 class="modal-title">市区町村・最寄り駅等</h6>
-                <input type="text" class="form-control" id="sfw">
+              <div class="col-lg-8 col-sm-12 my-3">
+                <!-- <h6 class="modal-title">市区町村・最寄り駅等</h6>
+                <input type="text" class="form-control" id="sfw"> -->
+                <h6 class="modal-title">職種を選ぶ</h6>
+                <div class="row">
+                              <div class="col-lg-4 col-6">
+                                <div class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input srh_jobtype_child_param" id="家電販売" value="35">
+                                  <label class="custom-control-label" for="家電販売">家電販売</label>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-6">
+                                <div class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input srh_jobtype_child_param" id="携帯販売" value="36">
+                                  <label class="custom-control-label" for="携帯販売">携帯販売</label>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-6">
+                                <div class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input srh_jobtype_child_param" id="レジ" value="44">
+                                  <label class="custom-control-label" for="レジ">レジ</label>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-6">
+                                <div class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input srh_jobtype_child_param" id="ファッション" value="38">
+                                  <label class="custom-control-label" for="ファッション">ファッション</label>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-6">
+                                <div class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input srh_jobtype_child_param" id="コスメ販売" value="38">
+                                  <label class="custom-control-label" for="コスメ販売">コスメ販売</label>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-6">
+                                <div class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input srh_jobtype_child_param" id="アパレル" value="39">
+                                  <label class="custom-control-label" for="アパレル">アパレル</label>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-6">
+                                <div class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input srh_jobtype_child_param" id="インテリア販売" value="40">
+                                  <label class="custom-control-label" for="インテリア販売">インテリア販売</label>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-6">
+                                <div class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input srh_jobtype_child_param" id="雑貨販売" value="40">
+                                  <label class="custom-control-label" for="雑貨販売">雑貨販売</label>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-6">
+                                <div class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input srh_jobtype_child_param" id="スーパー・デパ地下" value="42">
+                                  <label class="custom-control-label" for="スーパー・デパ地下">スーパー・デパ地下</label>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-6">
+                                <div class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input srh_jobtype_child_param" id="ドラッグストア" value="43">
+                                  <label class="custom-control-label" for="ドラッグストア">ドラッグストア</label>
+                                </div>
+                              </div>
+                            </div>
               </div>
               <div class="col-lg-12 mx-auto pt-3">
                 <a class="search_btn" href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&srh_jobtype_param=5" id="test" target="_blank">検索する</a>

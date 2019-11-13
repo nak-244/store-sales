@@ -119,14 +119,14 @@ input:hover, input:focus {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 48, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_common.scss */
   .padding_top {
-    padding-top: 70px;
+    padding-top: 300px;
   }
 }
 
 @media (max-width: 576px) {
   /* line 48, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_common.scss */
   .padding_top {
-    padding-top: 70px;
+    padding-top: 200px;
   }
 }
 

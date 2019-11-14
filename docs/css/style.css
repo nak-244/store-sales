@@ -106,7 +106,9 @@ input:hover, input:focus {
 
 /* line 48, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_common.scss */
 .padding_top {
-  padding-top: 180px;
+  /* padding-top: 180px; */
+  margin-top: 180px;
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -127,7 +129,7 @@ input:hover, input:focus {
   /* line 48, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_common.scss */
   .padding_top {
     /* padding-top: 200px; */
-    margin-top: 150px;
+    margin-top: 300px;
   }
 }
 

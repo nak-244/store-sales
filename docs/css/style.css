@@ -18,7 +18,7 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
   padding: 0;
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /* line 9, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_common.scss */
@@ -2635,6 +2635,7 @@ ul {
   position: absolute;
   width: 100%;
   top: -265px;
+  font-size: 16px;
 }
 
 @media (max-width: 991px) {
